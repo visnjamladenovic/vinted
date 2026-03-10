@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.Vinted" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Vinted" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#FF6B35</item>
+        <item name="colorPrimaryVariant">#E64A19</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#00BCD4</item>
+        <item name="android:windowBackground">#F8F8F8</item>
+    </style>
 </resources>
